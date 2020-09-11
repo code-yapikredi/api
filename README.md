@@ -37,12 +37,8 @@ So if you want to set them at start time, you can add the following parameter ei
 * or into your Java code:
 
 ```java
-System.setProperty(
-        "javax.net.ssl.trustStore",
-        "/the/path/to/your/trust/store.jks");
-System.setProperty(
-        "javax.net.ssl.keyStore",
-        "/the/path/to/your/key/store.jks");
+System.setProperty("javax.net.ssl.trustStore", "/the/path/to/your/trust/store.jks");
+System.setProperty("javax.net.ssl.keyStore", "/the/path/to/your/key/store.jks");
 System.setProperty("javax.net.ssl.keyStorePassword", "myPassword");
 ...etc...
 ```
